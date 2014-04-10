@@ -1,0 +1,34 @@
+#small {
+    width: 300px;
+    border: 0;
+    position: relative;
+    display: block;
+}
+.AngleA, .AngleB, .x, .b, .resultSide, .resultAngle {
+    width: 260px;
+    border: 0;
+    padding: 20px;
+}
+.AngleA, .AngleB, .x, .b {
+    background: white;
+}
+.resultSide, .resultAngle {
+    background:#E4F5EE;
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    /* Safari */
+}
+html {
+    background: #EBEBEB;
+}
+#wrap {
+    width: 400px;
+    margin: 0 auto;
+}
+input:focus {
+    outline:none;
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    background: #F5E4E7;
+}
+}
