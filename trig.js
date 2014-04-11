@@ -1,4 +1,5 @@
-$('button').click(function () {
+$(document).ready(function(){   
+    $('.button').click(function () {
 
     var AngleA = parseInt($(".AngleA").val(), 10);
     var AngleB = parseInt($('.AngleB').val(), 10);
@@ -45,4 +46,5 @@ $(document).on("click", ".resultAngle", function () {
 $('input').click(function () {
     $(this).val('');
 });
-    });
+});
+});
